@@ -1,0 +1,80 @@
+:root {
+  --font-fam: 'Source Code Pro';
+  --msg-color: #EFEFEF;
+  --font-color: #E3E3E3;
+  --input-bg-color: #2F4660;
+  --guessed-bg-color: #20242E;  
+  --input-font-color: #FFFFFF;
+  --bg-color: #000000;
+}
+
+body {
+    background: none;
+}
+
+#container {
+	position: relative;
+	visibility: hidden;
+}
+
+#message {
+	position: absolute;
+	width: 45vh;
+	left: 50%;
+	top: 19.5vh;
+	transform: translate(-50%, 0%);
+	text-align: left;
+	font-family: var(--font-fam);
+	font-size: 1.5vh;
+	color: var(--msg-color);
+}
+
+img {
+	height: 85vh;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 15vh);
+}
+
+table {
+	margin: auto;
+	text-align: center;
+	font-family: var(--font-fam);
+	font-size: 1.5vh;
+	color: var(--font-color);
+}
+
+td {
+	padding: 0.4vh;
+}
+
+input {
+	background-color: var(--input-bg-color);
+	border: none;
+	outline: none;
+	text-align: center;
+	font-family: arial;
+	font-size: 1.8vh;
+	color: var(--input-font-color);
+}
+
+input:disabled {
+	background-color: var(--guessed-bg-color);
+}
+
+tr {
+	display: none;
+	border: none;
+}
+
+#a, #a0 {
+	display: table-row;
+	height: 3.1vh;
+	line-height: 3.1vh;
+}
+
+#info {
+	border: 2px solid;
+	border-color: var(--bg-color);
+	background-color: var(--bg-color);
+}
