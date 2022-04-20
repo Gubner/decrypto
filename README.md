@@ -14,7 +14,7 @@ Based on the guess made, clues are given as follows
 
 Each character may only generate **one** clue, with priority given to ! over *
 
-The clue is always ordered with ! before * and does not indicate which of your guesses corresponds to the clue
+The clue is always ordered with ! before * and does not indicate which characters in your guess corresponds to the clue
 
 Example:
 | PIN | Guess | Clue |
