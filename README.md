@@ -15,13 +15,12 @@ Add images to qb-inventory/html/images
 - hackcard.png
 - decryptomatic.png
 
------
-
 Add a shop to qb-shops
 config.lua
 
 Add to Config.Products
 
+```lua
 ["blackmarket"] = {
 	[1] = {
 		name = 'stolencard',
@@ -53,8 +52,8 @@ Add to Config.Locations
 	["showblip"] = false,
 	["blipsprite"] = 52
 },
-	
------
+
+```	
 
 The minigame is based on Matermind
 https://en.wikipedia.org/wiki/Mastermind_(board_game)
