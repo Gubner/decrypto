@@ -54,6 +54,7 @@ Add to Config.Locations
 },
 ```	
 
+## The Minigame
 The minigame is based on Matermind
 https://en.wikipedia.org/wiki/Mastermind_(board_game)
 
