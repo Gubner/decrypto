@@ -11,7 +11,8 @@ Based on the guess made, clues are given as follows
 | * | asterisk | correct character, incorrect position |
 | ! | exclamation point | correct character, correct position |
 
-Each character may only generate one clue, with priority given to ! over *
+Each character may only generate **one** clue, with priority given to ! over *
+
 The clue is always ordered with ! before * and does not indicate which of your guesses corresponds to the clue
 
 Example:
@@ -21,4 +22,4 @@ Example:
 | 5543 | 5658 | !* |
 
 
-It can be set to base 10 (digits 0 through 9) or base 16 (digits 0 through 9 and letters A through F) in the config file.
+The minigame can be set to base 10 (digits 0 through 9) or base 16 (digits 0 through 9 and letters A through F) in the config file.
