@@ -8,6 +8,7 @@ https://en.wikipedia.org/wiki/Mastermind_(board_game)
 Based on the guess made, clues are given as follows
 | Clue | Character | Meaning |
 |:---:| --- | --- |
+|  | *none* | incorrect character, incorrect position |
 | * | asterisk | correct character, incorrect position |
 | ! | exclamation point | correct character, correct position |
 
