@@ -1,5 +1,5 @@
 # decrypto
-ATM Hacking with Minigame for QBus Framework
+ATM Hacking with Minigame for QBCore Framework
 
 ## Add items to qb-core\shared\items.lua
 
