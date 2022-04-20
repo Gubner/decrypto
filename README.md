@@ -5,14 +5,12 @@ The minigame is based on Matermind
 https://en.wikipedia.org/wiki/Mastermind_(board_game)
 
 Clues:
-An aterisk (*) indicates one of the characters is correct, but not in the right position
-An exclamation mark (!) indicates one of the characters is correct and in the right position
-Each character may only generate one clue, with priority given to ! over *
-
+Based on the guess made, clues are given as follows
 | Clue | Character | Meaning |
 |:---:| --- | --- |
 | * | asterisk | correct character, incorrect position |
 | ! | exclamation point | correct character, correct position |
+Each character may only generate one clue, with priority given to ! over *
 
 Example:
 Actual PIN = 5543
