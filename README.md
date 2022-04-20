@@ -1,4 +1,4 @@
-# decrypto
+# H1 decrypto
 ATM Hacking with Minigame
 
 The minigame is based on Matermind
@@ -9,10 +9,10 @@ An aterisk (*) indicates one of the characters is correct, but not in the right 
 An exclamation mark (!) indicates one of the characters is correct and in the right position
 Each character may only generate one clue, with priority given to ! over *
 
-Clue | Character | Meaning
-:---:| --- | ---
-* | asterisk | correct character, incorrect position
-! | exclamation point | correct character, correct position
+| Clue | Character | Meaning |
+|:---:| --- | --- |
+| * | asterisk | correct character, incorrect position |
+| ! | exclamation point | correct character, correct position |
 
 Example:
 Actual PIN = 5543
