@@ -1,6 +1,8 @@
 # decrypto
 ATM Hacking with Minigame for QBCore Framework
 
+Preview: https://tj-s.online/content/GTAV/decrypto.mp4
+
 ## Add items to qb-core\shared\items.lua
 
 ```lua
