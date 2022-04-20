@@ -1,8 +1,7 @@
 # decrypto
 ATM Hacking with Minigame
 
-Add items to qb-core/shared
-items.lua
+## Add items to qb-core\shared\items.lua
 
 ```lua
 	['stolencard'] 				 		 = {['name'] = 'stolencard', 			    		['label'] = 'Stolen ATM Card', 					['weight'] = 100, 	['type'] = 'item', 		['image'] = 'visacard.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = {accept = {'electronickit'}, reward = 'hackcard', anim = {['dict'] = 'anim@amb@business@bgen@bgen_inspecting@', ['lib'] = 'inspecting_low_idle_01_inspector', ['text'] = 'Crafting ATM hacking card', ['timeOut'] = 7500,}},   ['description'] = 'What will you do with someone else\'s ATM card?'},
@@ -10,13 +9,12 @@ items.lua
 	['decryptor'] 				 		 = {['name'] = 'decryptor', 			    		['label'] = 'Decrypt-o-matic', 					['weight'] = 300, 	['type'] = 'item', 		['image'] = 'decryptomatic.png', 				['unique'] = true, 	['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Decrypt PIN based encryptions'},
 ```
 
-Add images to qb-inventory/html/images
+## Add images to qb-inventory\html\images
 
 - hackcard.png
 - decryptomatic.png
 
-Add a shop to qb-shops
-config.lua
+## Add a shop to qb-shops\config.lua
 
 Add to Config.Products
 
@@ -39,9 +37,11 @@ Add to Config.Products
 		slot = 2,
 	},
 },
+```
 
 Add to Config.Locations
 
+```lua
 -- Black Market Locations
 ["backdoor"] = {
 	["label"] = "Back Door",
@@ -52,7 +52,6 @@ Add to Config.Locations
 	["showblip"] = false,
 	["blipsprite"] = 52
 },
-
 ```	
 
 The minigame is based on Matermind
