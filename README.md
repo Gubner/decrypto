@@ -22,7 +22,5 @@ Example:
 | 5543 | 8765 | * |
 | 5543 | 5678 | ! |
 | 5543 | 5658 | !* |
-| 5543 | 5578 | !! |
-
 
 The minigame can be set to base 10 (digits 0 through 9) or base 16 (digits 0 through 9 and letters A through F) in the config file.
