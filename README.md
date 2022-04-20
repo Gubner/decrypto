@@ -79,6 +79,6 @@ Example:
 
 The minigame can be set to base 10 (digits 0 through 9) or base 16 (digits 0 through 9 and letters A through F) in the config file.
 
-# Why does the minigame have such a long intro?
+## Why does the minigame have such a long intro?
 
 I did this to balance Police response versus hacking sprees. You can always modify this in the script.js file (the variable is message).
