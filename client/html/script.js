@@ -3,6 +3,7 @@ var snd = new  Audio("data:audio/wav;base64,UklGRsQVAABXQVZFZm10IBAAAAABAAEARKwA
 var message, pos, timer1, timer2, base, attempt, time, attempts, success;
 var qbgreen = '#20bb44', qbred = '#c10114'; //values from qb-notify css
 var pool = [];
+var ended = false;
 
 $(document).ready(function(){
   window.addEventListener('message', function(event) {
@@ -20,12 +21,16 @@ $(document).ready(function(){
 $(document).on('keydown', function() {
 	switch(event.keyCode) {
 		case 27: // ESC
-			miniGame.Close();
+			if(ended == false){
+				ended = true;
+				miniGame.Close();
+			}
 			break;
 	}
 });
 
 miniGame.Open = function(data) {
+	ended = false;
 	container.style.visibility = "visible";
 	if(data.base == 16) {
 		pool = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "A", "B", "C", "D", "E", "F"];
