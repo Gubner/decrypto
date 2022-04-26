@@ -23,19 +23,19 @@ Add to Config.Products
 ```lua
 ["blackmarket"] = {
 	[1] = {
-		name = 'stolencard',
+		name = "stolencard",
 		price = 100,
 		amount = 50,
 		info = {},
-		type = 'item',
+		type = "item",
 		slot = 1,
 	},
 	[2] = {
-		name = 'decryptor',
+		name = "decryptor",
 		price = 5000,
 		amount = 10,
 		info = {},
-		type = 'item',
+		type = "item",
 		slot = 2,
 	},
 },
