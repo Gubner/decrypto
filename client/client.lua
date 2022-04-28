@@ -10,49 +10,14 @@ local Hacked = {}
 
 -- qb-target Exports
 
-exports['qb-target']:AddTargetModel(GetHashKey(Config.ATMModels[1]), {
+exports['qb-target']:AddTargetModel(Config.ATMModels, {
 	options = {
 		{
 			type = "client",
 			event = "decrypto:client:starthack",
 			icon = "fa-solid fa-mobile-screen-button",
 			label = "Hack ATM",
-		}
-	},
-	distance = 1.5
-})
-
-exports['qb-target']:AddTargetModel(GetHashKey(Config.ATMModels[2]), {
-	options = {
-		{
-			type = "client",
-			event = "decrypto:client:starthack",
-			icon = "fa-solid fa-mobile-screen-button",
-			label = "Hack ATM",
-		}
-	},
-	distance = 1.5
-})
-
-exports['qb-target']:AddTargetModel(GetHashKey(Config.ATMModels[3]), {
-	options = {
-		{
-			type = "client",
-			event = "decrypto:client:starthack",
-			icon = "fa-solid fa-mobile-screen-button",
-			label = "Hack ATM",
-		}
-	},
-	distance = 1.5
-})
-
-exports['qb-target']:AddTargetModel(GetHashKey(Config.ATMModels[4]), {
-	options = {
-		{
-			type = "client",
-			event = "decrypto:client:starthack",
-			icon = "fa-solid fa-mobile-screen-button",
-			label = "Hack ATM",
+			item = "decryptor",
 		}
 	},
 	distance = 1.5
