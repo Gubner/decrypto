@@ -70,7 +70,7 @@ Add to Config.Locations
 		["showblip"] = false,
 		["blipsprite"] = 52
 	},
-	]]--
+]]--
 ```	
 
 ## The Minigame
