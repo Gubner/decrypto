@@ -44,16 +44,33 @@ Add to Config.Products
 Add to Config.Locations
 
 ```lua
--- Black Market Locations
-["backdoor"] = {
-	["label"] = "Back Door",
-	["coords"] = {
-		[1] = vector3(1194.16, 2721.67, 38.81)
+-- For newer versions of qb-shops
+	-- Black Market Locations
+	["backdoor"] = {
+		["label"] = "Back Door",
+		["coords"] = vector4(1194.4, 2721.75, 38.81, 1.45),
+		["ped"] = 'cs_old_man1a',
+		["scenario"] = "WORLD_HUMAN_STAND_IMPATIENT",
+		["radius"] = 1.5,
+		["targetIcon"] = "fas fa-shopping-basket",
+		["targetLabel"] = "I have a deal for you",
+		["products"] = Config.Products["blackmarket"],
+		["showblip"] = false,
+		["blipsprite"] = 52
 	},
-	["products"] = Config.Products["blackmarket"],
-	["showblip"] = false,
-	["blipsprite"] = 52
-},
+
+--[[ For older versions of qb-shops
+	-- Black Market Locations
+	["backdoor"] = {
+		["label"] = "Back Door",
+		["coords"] = {
+			[1] = vector3(1194.16, 2721.67, 38.81)
+		},
+		["products"] = Config.Products["blackmarket"],
+		["showblip"] = false,
+		["blipsprite"] = 52
+	},
+	]]--
 ```	
 
 ## The Minigame
